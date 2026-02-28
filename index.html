@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paradigm Replica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="logo">
+      <h1>Paradigm</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#one">Section One</a></li>
+        <li><a href="#two">Section Two</a></li>
+        <li><a href="#three">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <!-- Intro Section -->
+    <section id="intro" class="section hero">
+      <div class="inner">
+        <h2>Paradigm Shift</h2>
+        <p>A clean, modern layout recreated using only HTML and CSS.</p>
+      </div>
+    </section>
+
+    <!-- Section One -->
+    <section id="one" class="section split">
+      <div class="image">
+        <img src="images/pic01.jpg" alt="Placeholder">
+      </div>
+      <div class="text">
+        <h3>Section One</h3>
+        <p>
+          This section uses a two-column split layout.
+          On larger screens it displays side-by-side.
+          On smaller screens it stacks vertically.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section Two -->
+    <section id="two" class="section split reverse">
+      <div class="image">
+        <img src="images/pic02.jpg" alt="Placeholder">
+      </div>
+      <div class="text">
+        <h3>Section Two</h3>
+        <p>
+          Alternating layout to match the Paradigm style.
+          Built using Flexbox with responsive behavior.
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="three" class="section gallery">
+      <h3>Gallery</h3>
+      <div class="grid">
+        <img src="images/pic03.jpg" alt="">
+        <img src="images/pic04.jpg" alt="">
+        <img src="images/pic05.jpg" alt="">
+        <img src="images/pic06.jpg" alt="">
+        <img src="images/pic07.jpg" alt="">
+        <img src="images/pic08.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <h3>Contact</h3>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+</body>
+</html>
